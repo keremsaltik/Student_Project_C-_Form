@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b6a610cb6edb45fb90818395298d0d38" Name="Diagram1">
+        <EntityTypeShape EntityType="notlarModel.dersler" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="notlarModel.ogrenci" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="notlarModel.ogrenci_not" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="notlarModel.FK_ogrenci_not_dersler" ManuallyRouted="false" />
+        <AssociationConnector Association="notlarModel.FK_ogrenci_not_ogrenci" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="notlarModel.kulup" Width="1.5" PointX="7.125" PointY="2.5" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
