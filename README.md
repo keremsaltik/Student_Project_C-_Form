@@ -1,6 +1,6 @@
 [EN]
 Hello,
-you can access the codes with Merhaba5(Not veritabanı için) folder.
+you should access the codes with Merhaba5(Not veritabanı için) folder.
 I used two different Sql commands in this project. 
 
 [TR]
